@@ -72,6 +72,6 @@ var server = net.createServer(function (conn) {
 
 
 // Listen for connections
-server.listen(3001, "10.5.17.111", function () {
+server.listen(3001, function () {
     console.log("Server: Listening");
 });
